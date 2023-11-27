@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VOLTTECK</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container bg-dark"> <!-- Agrega la clase "bg-dark" -->
+      <nav class="navbar navbar-expand-lg navbar-dark"> <!-- Elimina la clase "bg-light" -->
+        <div class="container">
+          <div class="d-flex align-items-center"> <!-- Nuevo contenedor d-flex -->
+            <img src="img/logo2.png" alt="Logo" class="logo">
+            <a class="navbar-brand ml-3" href="#">VOLTTECK</a> <!-- Agrega la clase "ml-3" -->
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a href="#" class="nav-link text-white">HOME</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">SERVICIOS</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-white">EMPRESA</a></li>
+              <li class="nav-item"><a href="#" class="nav-link custom-green">CONTACTO</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  
+
+ <div id="carouselSlidesOnly" class="carousel slide position-relative d-flex align-items-center justify-content-end" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="image-overlay"></div> 
+      <img src="img/fondo.jpeg" class="d-block w-100 opacidad" alt="Buenos Aires 1">
+    </div>
+    
+  </div>
+  <div class="position-absolute text-end col-md-6 col-12 text-light px-5">
+    <div class="superposicion">
+      <div class="d-none d-md-block pt-5 mt-5">
+        <h1>
+          VOLTTECK
+        </h1>
+        <p>
+          En voltteck nos dedicamos a llevar la energía a tu hogar de manera
+           segura y eficiente, con instalaciones eléctricas y tableros de calidad.
+        </p>
+      </div>
+      <div class="pt-1 d-grid gap-2 d-md-block">
+        <button type="button" class="btn btn-outline-light">Tableros</button>
+        
+        <button type="button" class="btn btn-verde text-light">Instalaciones</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+ <section>
+  <div class="container-texto">
+    <h3 class="small-text">SERVICIOS</h3>
+  </div>
+  
+
+  <div class="d-flex justify-content-center mb-4">
+    <div class="text-center mx-2">
+      <img src="img/instalacion.jpg" class="img-fluid opacidad my-image" alt="Buenos Aires 1">
+      <div class="bordered-text">
+        
+        <h6>Intalacion Domiciliaria</h6>
+        <p>Nos especializamos en ofrecer servicios completos de instalaciones eléctricas domiciliarias. Nuestro equipo altamente capacitado se encarga de diseñar, implementar y mantener sistemas eléctricos seguros y eficientes para hogares.</p>
+        
+      </div>
+    </div>
+    <div class="text-center mx-2">
+      <img src="img/tablero.jpg" class="img-fluid opacidad my-image" alt="Buenos Aires 2">
+      <div class="bordered-text">
+      
+        <h6>Armado de Tableros</h6>
+        <p>Nos especializamos en brindar servicios de instalación de tableros eléctricos para hogares. Nuestro equipo profesional se encarga de diseñar e implementar tableros eléctricos que actúan como el centro de distribución de energía en tu hogar</p>
+        
+      </div>
+    </div>
+   
+  </div>
+ </section>
+ <div class="image-container">
+  <img src="img/luces3.jpg" class="imagen-principal" alt="Imagen principal">
+  <div class="cuadro-gris">
+    <div class="texto-cuadro">
+      <h3>Empresa </h3>
+      <p>Buenos Aires es la provincia y localidad más grande 
+      del estado de Argentina, en los Estados Unidos. Honolulu 
+      es la más sureña de entre las principales ciudades 
+      estadounidenses. Aunque el nombre de Honolulu se refiere 
+      al área urbana en la costa sureste de la isla de Oahu, 
+      la ciudad y el condado de Honolulu han formado una ciudad- 
+      condado consolidada que cubre toda la ciudad (aproximadamente 
+      600 km² de superficie)</p>
+    </div>
+  </div>
+</div>
+<div class="container-texto">
+  <h3 class="small-text">CONTACTO</h3>
+</div>
+
+<div class="form">
+  <form action="mailto:voltteck.ingenieria@gmail.com" method="POST">
+    <div class="form-group">
+      <label for="nombre"></label>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+    </div>
+    <div class="form-group">
+      <label for="apellido"></label>
+      <input type="text" id="apellido" name="Apellido" placeholder="Apellido" required>
+    </div>
+    <div class="comentario">
+      <label for="comentario"></label><br>
+      <textarea name="comentario" id="comentario" rows="10" cols="30" placeholder="Sobre que quieres hablar?"></textarea>
+      <p class="font-Normal ">Recuerda incluir el título para tu charla</p>
+
+    </div>
+    <button type="submit" class="btn btn-enviar">Enviar</button>
+  </form>
+</div>
+<footer>
+  <ul>
+      <li><a href="https://www.instagram.com/voltteck?igshid=YTQwZjQ0NmI0OA%3D%3D" class="footer-link  text-white">Instagram</a></li>
+      <li><a href="https://wa.me/qr/QQ4JXPTFRTGZE1" class="footer-link  text-white">whattsap</a></li>
+      <li><a href="#" class="footer-link  text-white">Prensa</a></li>
+      <li><a href="#"class="footer-link  text-white">Conferencias</a></li>
+      <li><a href="#"class="footer-link  text-white">Términos y Condiciones</a></li>
+      <li><a href="#"class="footer-link  text-white">Privacidad</a></li>
+      <li><a href="#"class="footer-link  text-white">Estudiantes</a></li>
+  </ul>
+</footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
